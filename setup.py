@@ -29,7 +29,7 @@ setuptools.setup(
     long_description=LONG_DESCRIPTION,
     author='impact',
     author_email='routeros7.1@gmail.com',
-    url='https://github.com/ptswarm/reFlutter',
+    url='https://github.com/Skactor/reFlutter',
     packages=setuptools.find_packages(),
     license='GPLv3+',
     platforms=['any'],
