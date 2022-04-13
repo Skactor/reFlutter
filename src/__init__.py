@@ -393,7 +393,7 @@ def checkHash():
         sys.exit()
     resp = (
         urlopen(
-            "https://raw.githubusercontent.com/ptswarm/reFlutter/main/enginehash.csv"
+            "https://raw.githubusercontent.com/Skactor/reFlutter/master/enginehash.csv"
         )
         .read()
         .decode("utf-8")
@@ -456,7 +456,7 @@ def main():
 
         if not os.path.exists("enginehash.csv"):
             urlretrieve(
-                "https://raw.githubusercontent.com/ptswarm/reFlutter/main/enginehash.csv",
+                "https://raw.githubusercontent.com/Skactor/reFlutter/master/enginehash.csv",
                 "enginehash.csv",
             )
 
