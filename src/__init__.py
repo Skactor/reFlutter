@@ -83,7 +83,7 @@ def networkLib():
     if len(libios[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Skactor/reFlutter/releases/download/ios-v2-"
+                "https://github.com/Skactor/reFlutter/releases/download/ios-"
                 + libios[1]
                 + "/Flutter",
                 "Flutter",
@@ -94,7 +94,7 @@ def networkLib():
     if len(libAppArm64[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Skactor/reFlutter/releases/download/android-v2-"
+                "https://github.com/Skactor/reFlutter/releases/download/android-"
                 + libAppArm64[1]
                 + "/libflutter_arm64.so",
                 "libflutter_arm64.so",
@@ -105,7 +105,7 @@ def networkLib():
     if len(libAppArm[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Skactor/reFlutter/releases/download/android-v2-"
+                "https://github.com/Skactor/reFlutter/releases/download/android-"
                 + libAppArm[1]
                 + "/libflutter_arm.so",
                 "libflutter_arm.so",
@@ -116,7 +116,7 @@ def networkLib():
     if len(libAppX64[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Skactor/reFlutter/releases/download/android-v2-"
+                "https://github.com/Skactor/reFlutter/releases/download/android-"
                 + libAppX64[1]
                 + "/libflutter_x64.so",
                 "libflutter_x64.so",
@@ -127,7 +127,7 @@ def networkLib():
     if len(libAppX86[1]) != 0:
         try:
             urlretrieve(
-                "https://github.com/Skactor/reFlutter/releases/download/android-v2-"
+                "https://github.com/Skactor/reFlutter/releases/download/android-"
                 + libAppX86[1]
                 + "/libflutter_x86.so",
                 "libflutter_x86.so",
